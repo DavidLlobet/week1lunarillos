@@ -53,8 +53,12 @@ header {
 
 .footer {
   .general {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
     .row {
       .tuple {
+        width: 100vw;
         display: flex;
         flex-direction: row;
       }
