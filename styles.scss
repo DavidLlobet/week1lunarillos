@@ -1,5 +1,5 @@
-$header-icon-width: #c6538c;
-$header-icon-height: #c6538c;
+$header-icon-width: 50px;
+$header-icon-height: 50px;
 * {
   box-sizing: border-box;
 }
@@ -20,12 +20,26 @@ header {
   height: 50px;
   width: 100vw;
 
+  .iconbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+  }
+
   .icons {
     height: $header-icon-height;
-    width: 50px;
+    width: $header-icon-width;
+    padding: 10px;
+
+    .search {
+      background-color: gray;
+    }
+    .number {
+      background-color: #f75656;
+    }
   }
 }
-
 
 .logo {
   padding-right: 40px;
@@ -36,4 +50,3 @@ header {
   height: auto;
   margin-top: 100px;
 }
-
