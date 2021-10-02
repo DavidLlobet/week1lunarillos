@@ -1,10 +1,36 @@
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  background-color: red;
 }
 
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #f8f8f8;
+  height: 50px;
+  width: 100vw;
+}
+
+header .icons {
+  height: #c6538c;
+  width: 50px;
+}
 /*# sourceMappingURL=styles.css.map */
