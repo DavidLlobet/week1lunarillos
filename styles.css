@@ -20,6 +20,20 @@ main {
           align-items: center;
 }
 
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #f8f8f8;
+  height: 50px;
+  width: 100vw;
+}
+
+header .icons {
+  height: #c6538c;
+  width: 50px;
+
 .logo {
   padding-right: 40px;
 }
@@ -28,5 +42,6 @@ main {
   width: 102.078px;
   height: auto;
   margin-top: 100px;
+
 }
 /*# sourceMappingURL=styles.css.map */
