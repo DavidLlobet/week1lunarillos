@@ -32,9 +32,34 @@ header {
   width: 100vw;
 }
 
+header .iconbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+}
+
 header .icons {
-  height: #c6538c;
+  height: 50px;
   width: 50px;
+
+  padding: 10px;
+}
+
+header .icons .search {
+  background-color: gray;
+}
+
+header .icons .number {
+  background-color: #f75656;
+
 }
 
 .logo {
@@ -45,6 +70,7 @@ header .icons {
 .cake {
   width: 102.078px;
   height: auto;
+
   position: absolute;
   top: -60px;
 }
@@ -157,5 +183,7 @@ header .icons {
   background: #FF5959;
   text-align: center;
   margin-top: 50px;
+  margin-top: 100px;
+
 }
 /*# sourceMappingURL=styles.css.map */
