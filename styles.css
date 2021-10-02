@@ -20,6 +20,7 @@ main {
           align-items: center;
 }
 
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -32,5 +33,15 @@ header {
 header .icons {
   height: #c6538c;
   width: 50px;
+
+.logo {
+  padding-right: 40px;
+}
+
+.cake {
+  width: 102.078px;
+  height: auto;
+  margin-top: 100px;
+
 }
 /*# sourceMappingURL=styles.css.map */

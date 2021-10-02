@@ -7,11 +7,13 @@ $header-icon-height: #c6538c;
 body {
   margin: 0;
 }
+
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 header {
   display: flex;
   background: #f8f8f8;
@@ -23,3 +25,15 @@ header {
     width: 50px;
   }
 }
+
+
+.logo {
+  padding-right: 40px;
+}
+
+.cake {
+  width: 102.078px;
+  height: auto;
+  margin-top: 100px;
+}
+
