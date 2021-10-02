@@ -1,3 +1,5 @@
+$header-icon-width: #c6538c;
+$header-icon-height: #c6538c;
 * {
   box-sizing: border-box;
 }
@@ -12,6 +14,19 @@ main {
   align-items: center;
 }
 
+header {
+  display: flex;
+  background: #f8f8f8;
+  height: 50px;
+  width: 100vw;
+
+  .icons {
+    height: $header-icon-height;
+    width: 50px;
+  }
+}
+
+
 .logo {
   padding-right: 40px;
 }
@@ -21,3 +36,4 @@ main {
   height: auto;
   margin-top: 100px;
 }
+
