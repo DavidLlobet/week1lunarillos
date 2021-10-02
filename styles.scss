@@ -53,6 +53,22 @@ header {
   position: absolute;
   top: -60px;
 }
+
+.footer {
+  .general {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    .row {
+      .tuple {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+      }
+    }
+  }
+}
+
 .parties {
   display: flex;
   flex-direction: column;
@@ -139,4 +155,3 @@ header {
   text-align: center;
   margin-top: 50px;
 }
-
