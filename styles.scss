@@ -49,6 +49,7 @@ header {
   width: 100vw;
   padding: 100px;
   margin-top: 150px;
+  padding-bottom: 0;
 }
 
 .line {
@@ -71,6 +72,7 @@ header {
   width: 325px;
   height: 204.281px;
   margin-top: 50px;
+  margin-right: 20px;
 }
 
 .picture2 {
@@ -78,7 +80,8 @@ header {
   position: relative;
   width: 325px;
   height: 204.281px;
-  margin-top: 10px;;
+  margin-top: 10px;
+  margin-right: 20px;
 }
 
 .picture3 {
@@ -87,6 +90,7 @@ header {
   width: 325px;
   height: 204.281px;
   margin-top: 10px;
+  margin-right: 20px;
 }
 
 .picture-opacity {
@@ -97,9 +101,27 @@ header {
   height: 100px;
   position: absolute;
   align-self: flex-end;
-  background-color: white;
-  opacity: 0.5;
+  background-color: rgba($color: #ffffff, $alpha: 0.5)
 }
 
+.picture-info {
+  font-size: 18px;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 20px;
+  opacity: 5;
+  font-weight: bold;
+}
 
-
+.see-more {
+  width: 192px;
+  height: 50px;
+  margin: 0 auto;
+  font-size: 18px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  background: #FF5959;
+  text-align: center;
+  margin-top: 50px;
+}
