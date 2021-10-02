@@ -53,6 +53,7 @@ header {
   position: absolute;
   top: -60px;
 }
+
 .parties {
   display: flex;
   flex-direction: column;
@@ -140,3 +141,13 @@ header {
   margin-top: 50px;
 }
 
+.bottom-footer {
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  padding: 100px;
+  padding-bottom: 0;
+}
