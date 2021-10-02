@@ -1,13 +1,7 @@
-.register {
-  width: 100px;
-  height: 100px;
-  background-image: url(https://www.marialunarillos.com/skin/frontend/default/newdesign2017/images/sprite.svg);
-  background-position-x: -66px;
-  background-position-y: 10px;
-  background-size: initial;
-  background-repeat: no-repeat;
-  background-attachment: initial;
-  background-origin: initial;
-  background-clip: initial;
-  background-color: rgb(82, 41, 41);
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
 }
