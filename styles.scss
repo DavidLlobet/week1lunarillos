@@ -394,3 +394,27 @@ label {
   font-size: 14px;
   line-height: 50px;
 }
+
+@media (min-width: 600px) {
+  .bottom-footer {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+  }
+
+  .social-networks {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-right: 100px;
+  }
+
+  .additional-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+    margin-bottom: 50px;
+  }
+  
+}
