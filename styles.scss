@@ -2,11 +2,12 @@ $header-icon-width: 50px;
 $header-icon-height: 50px;
 * {
   box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 body {
   margin: 0;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 main {
@@ -55,12 +56,13 @@ header {
   top: -60px;
 }
 
-
 footer {
   display: flex;
   flex-direction: column;
 
   .general {
+    background-color: #e8e6e5;
+    color: #67625f;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -70,16 +72,58 @@ footer {
     .row {
       display: flex;
       flex-direction: row;
-      margin: 40px;
+
       .group {
-        margin: 60px;
-        height: 100px;
-        width: 100px;
+        padding: 40px 0;
+        width: 50%;
+        text-align: center;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        .truck {
+          background: url(./resources/sprite.svg) 0 -38px no-repeat;
+          width: 85px;
+          height: 60px;
+          margin-bottom: 25px;
+        }
+        .clock {
+          background: url(./resources/sprite.svg) -90px -38px no-repeat
+            transparent;
+          width: 55px;
+          height: 60px;
+          margin-bottom: 25px;
+        }
+        .envelope {
+          background: url(./resources/sprite.svg) -150px -36px no-repeat;
+          width: 68px;
+          height: 60px;
+          margin-bottom: 25px;
+        }
+        .credit-card {
+          background: url(./resources/sprite.svg) -223px -38px no-repeat;
+          width: 77px;
+          height: 60px;
+          margin-bottom: 25px;
+        }
+      }
+
+      .title {
+        line-height: 18px;
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+        font-weight: 600;
+      }
+      .text {
+        line-height: 18px;
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
       }
     }
   }
 }
-
 
 .parties {
   display: flex;
@@ -293,7 +337,7 @@ label {
   margin: 0 auto;
   font-size: 18px;
   color: white;
-  background: #FF5959;
+  background: #ff5959;
   text-align: center;
   margin-top: 30px;
   border: none;
@@ -302,4 +346,3 @@ label {
   font-weight: 700;
   letter-spacing: 0;
 }
-
