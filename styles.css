@@ -83,6 +83,25 @@ footer {
           flex-direction: column;
 }
 
+footer .marcas-box {
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 125px;
+}
+
+footer .marcas-box .marcas-img {
+  margin: 50px;
+}
+
 footer .general {
   background-color: #e8e6e5;
   color: #67625f;
@@ -113,6 +132,7 @@ footer .general .row {
 }
 
 footer .general .row .group {
+  margin: 10px;
   padding: 40px 0;
   width: 50%;
   text-align: center;
@@ -172,6 +192,32 @@ footer .general .row .text {
   font-size: 12px;
   margin: 0;
   padding: 0;
+}
+
+@media (min-width: 400px) {
+  footer .general {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (min-width: 800px) {
+  footer .marcas-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  footer .general {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  footer .general .row .group {
+    margin: 50px;
+  }
 }
 
 .parties {
@@ -510,7 +556,7 @@ label {
 
 .copyright {
   width: 100%;
-  background: #FF5959;
+  background: #ff5959;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
