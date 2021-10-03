@@ -1,7 +1,6 @@
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: "Source Sans Pro", sans-serif;
 }
 
 body {
@@ -194,6 +193,7 @@ footer .general .row .text {
   width: 100vw;
   padding: 100px;
   margin-top: 150px;
+  margin-bottom: 125px;
   padding-bottom: 0;
 }
 
@@ -266,7 +266,6 @@ footer .general .row .text {
 .picture-info {
   font-size: 18px;
   color: #67635f;
-  font-family: "Source Sans Pro", sans-serif;
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 20px;
@@ -279,7 +278,6 @@ footer .general .row .text {
   height: 50px;
   margin: 0 auto;
   font-size: 18px;
-  font-family: "Source Sans Pro", sans-serif;
   color: white;
   background: #ff5959;
   text-align: center;
@@ -302,8 +300,7 @@ footer .general .row .text {
       -ms-flex-align: center;
           align-items: center;
   width: 100vw;
-  padding: 100px;
-  padding-bottom: 0;
+  padding-top: 75px;
 }
 
 .social-networks {
@@ -363,6 +360,64 @@ footer .general .row .text {
   background: url(resources/sprite.svg) -176px -494px no-repeat;
   width: 33px;
   height: 32px;
+}
+
+.additional-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 36px;
+  margin-bottom: 90px;
+}
+
+.icon-group {
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 9px;
+}
+
+.contact-icon {
+  width: 30px;
+  height: 31px;
+  background: url(resources/sprite.svg) 0 -207px no-repeat;
+  margin-bottom: 10px;
+}
+
+.about-us-icon {
+  width: 30px;
+  height: 31px;
+  background: url(resources/sprite.svg) 0 -246px no-repeat;
+  margin-bottom: 10px;
+}
+
+.sales-icon {
+  width: 30px;
+  height: 31px;
+  background: url(resources/sprite.svg) 0 -285px no-repeat;
+  margin-bottom: 10px;
+}
+
+.icon-text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ff5959;
 }
 
 .subscribe {
@@ -453,64 +508,8 @@ label {
   letter-spacing: 0;
 }
 
-.additional-info {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 90px;
-}
-
-.icon-group {
-  height: 60px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 9px;
-}
-
-.contact-icon {
-  width: 30px;
-  height: 31px;
-  background: url(resources/sprite.svg) 0 -207px no-repeat;
-  margin-bottom: 10px;
-}
-
-.about-us-icon {
-  width: 30px;
-  height: 31px;
-  background: url(resources/sprite.svg) 0 -246px no-repeat;
-  margin-bottom: 10px;
-}
-
-.sales-icon {
-  width: 30px;
-  height: 31px;
-  background: url(resources/sprite.svg) 0 -285px no-repeat;
-  margin-bottom: 10px;
-}
-
-.icon-text {
-  margin: 0;
-  font-weight: 400;
-  font-size: 14px;
-  color: #ff5959;
-}
-
 .copyright {
+  width: 100%;
   background: #FF5959;
   display: -webkit-box;
   display: -ms-flexbox;

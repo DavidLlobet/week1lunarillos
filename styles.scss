@@ -134,6 +134,7 @@ footer {
   width: 100vw;
   padding: 100px;
   margin-top: 150px;
+  margin-bottom: 125px;
   padding-bottom: 0;
 }
 
@@ -217,8 +218,7 @@ footer {
   justify-content: center;
   align-items: center;
   width: 100vw;
-  padding: 100px;
-  padding-bottom: 0;
+  padding-top: 75px;
 }
 
 .social-networks {
@@ -275,6 +275,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 36px;
   margin-bottom: 90px;
 }
 
@@ -313,18 +314,6 @@ footer {
   font-size: 14px;
   color: #ff5959;
 }
-
-.copyright {
-  background: #FF5959;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  height: 50px;
-  font-size: 14px;
-  line-height: 50px;
-}
-
 
 .subscribe {
   display: flex;
@@ -392,4 +381,16 @@ label {
   padding: 0;
   font-weight: 700;
   letter-spacing: 0;
+}
+
+.copyright {
+  width: 100%;
+  background: #FF5959;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  height: 50px;
+  font-size: 14px;
+  line-height: 50px;
 }
