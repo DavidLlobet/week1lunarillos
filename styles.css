@@ -194,32 +194,6 @@ footer .general .row .text {
   padding: 0;
 }
 
-@media (min-width: 400px) {
-  footer .general {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
-@media (min-width: 800px) {
-  footer .marcas-box {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  footer .general {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
-  footer .general .row .group {
-    margin: 50px;
-  }
-}
-
 .parties {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -573,6 +547,20 @@ label {
 }
 
 @media (min-width: 600px) {
+  footer .marcas-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  footer .general {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  footer .general .row .group {
+    margin: 50px;
+  }
   .bottom-footer {
     display: -webkit-box;
     display: -ms-flexbox;
