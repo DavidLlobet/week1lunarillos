@@ -73,6 +73,50 @@ header .icons .number {
   top: -60px;
 }
 
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .general {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+}
+
+footer .general .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 40px;
+}
+
+footer .general .row .group {
+  margin: 60px;
+  height: 100px;
+  width: 100px;
+}
+
 .parties {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -98,14 +142,14 @@ header .icons .number {
 .line {
   width: 218px;
   height: 2px;
-  background-color: #2E2925;
+  background-color: #2e2925;
 }
 
 .parties-title {
   font-family: sans-serif;
   font-size: 22px;
   letter-spacing: 6px;
-  color: #2E2925;
+  color: #2e2925;
   font-weight: 900;
 }
 
@@ -164,6 +208,7 @@ header .icons .number {
 .picture-info {
   font-size: 18px;
   color: #67635f;
+  font-family: "Source Sans Pro", sans-serif;
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 20px;
@@ -176,8 +221,10 @@ header .icons .number {
   height: 50px;
   margin: 0 auto;
   font-size: 18px;
+
+  font-family: "Source Sans Pro", sans-serif;
   color: white;
-  background: #FF5959;
+  background: #ff5959;
   text-align: center;
   margin-top: 50px;
   border: none;
@@ -347,5 +394,6 @@ label {
   padding: 0;
   font-weight: 700;
   letter-spacing: 0;
+
 }
 /*# sourceMappingURL=styles.css.map */
