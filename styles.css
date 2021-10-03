@@ -452,4 +452,78 @@ label {
   font-weight: 700;
   letter-spacing: 0;
 }
+
+.additional-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 90px;
+}
+
+.icon-group {
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 9px;
+}
+
+.contact-icon {
+  width: 30px;
+  height: 31px;
+  background: url(resources/sprite.svg) 0 -207px no-repeat;
+  margin-bottom: 10px;
+}
+
+.about-us-icon {
+  width: 30px;
+  height: 31px;
+  background: url(resources/sprite.svg) 0 -246px no-repeat;
+  margin-bottom: 10px;
+}
+
+.sales-icon {
+  width: 30px;
+  height: 31px;
+  background: url(resources/sprite.svg) 0 -285px no-repeat;
+  margin-bottom: 10px;
+}
+
+.icon-text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ff5959;
+}
+
+.copyright {
+  background: #FF5959;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  height: 50px;
+  font-size: 14px;
+  line-height: 50px;
+}
 /*# sourceMappingURL=styles.css.map */
