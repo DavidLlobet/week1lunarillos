@@ -18,7 +18,7 @@ main {
 
 header {
   display: flex;
-  background: #f8f8f8;
+  background: hsl(0, 0%, 97%);
   height: 50px;
   width: 100vw;
 
@@ -30,15 +30,35 @@ header {
   }
 
   .icons {
-    height: $header-icon-height;
-    width: $header-icon-width;
-    padding: 10px;
+    .burguer {
+      cursor: pointer;
+      width: 27px;
+      height: 27px;
+    }
+    .register-box {
+      width: 50px;
+      height: 50px;
 
+      .register-icon {
+        background: blue;
+        width: 27px;
+        height: 27px;
+        background: url(./resources/sprite.svg) 0 0 no-repeat;
+      }
+    }
     .search {
-      background-color: gray;
+      background: #bbb8b6 url(./resources/sprite.svg) -304px 12px no-repeat;
+      // width: 50px;
+      // height: 50px;
+    }
+    .cart {
+      background: #fff url(./resources/sprite.svg) -66px 10px no-repeat;
+      // width: 50px;
+      // height: 50px;
     }
     .number {
-      background-color: #f75656;
+      // width: 27px;
+      // height: 27px;
     }
   }
 }
@@ -279,7 +299,7 @@ footer {
 }
 
 .icon-group {
-  height: 60px;;
+  height: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -315,7 +335,7 @@ footer {
 }
 
 .copyright {
-  background: #FF5959;
+  background: #ff5959;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -324,7 +344,6 @@ footer {
   font-size: 14px;
   line-height: 50px;
 }
-
 
 .subscribe {
   display: flex;
