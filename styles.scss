@@ -59,6 +59,18 @@ footer {
   display: flex;
   flex-direction: column;
 
+  .marcas-box {
+    display: none;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 125px;
+    .marcas-img {
+      margin: 50px;
+    }
+  }
+
   .general {
     background-color: #e8e6e5;
     color: #67625f;
@@ -135,6 +147,9 @@ footer {
 
 @media (min-width: 800px) {
   footer {
+    .marcas-box {
+      display: flex;
+    }
     .general {
       flex-direction: row;
       .row {
