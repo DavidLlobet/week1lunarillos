@@ -137,29 +137,6 @@ footer {
   }
 }
 
-@media (min-width: 400px) {
-  footer {
-    .general {
-      flex-direction: column;
-    }
-  }
-}
-
-@media (min-width: 800px) {
-  footer {
-    .marcas-box {
-      display: flex;
-    }
-    .general {
-      flex-direction: row;
-      .row {
-        .group {
-          margin: 50px;
-        }
-      }
-    }
-  }
-}
 
 .parties {
   display: flex;
@@ -433,6 +410,21 @@ label {
 }
 
 @media (min-width: 600px) {
+
+  footer {
+    .marcas-box {
+      display: flex;
+    }
+    .general {
+      flex-direction: row;
+      .row {
+        .group {
+          margin: 50px;
+        }
+      }
+    }
+  }
+
   .bottom-footer {
     display: flex;
     flex-direction: row;
