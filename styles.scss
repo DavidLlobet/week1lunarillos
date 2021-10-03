@@ -6,6 +6,7 @@ $header-icon-height: 50px;
 
 body {
   margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 main {
@@ -121,7 +122,7 @@ header {
 
 .picture-info {
   font-size: 18px;
-  font-family: 'Source Sans Pro', sans-serif;
+  color: #67635f;
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 20px;
@@ -130,19 +131,18 @@ header {
 }
 
 .see-more {
-  width: 192px;
+  width: 152px;
   height: 50px;
   margin: 0 auto;
   font-size: 18px;
-  font-family: 'Source Sans Pro', sans-serif;
   color: white;
   background: #FF5959;
   text-align: center;
   margin-top: 50px;
+  border: none;
 }
 
 .bottom-footer {
-  background-color: #f8f8f8;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -150,4 +150,122 @@ header {
   width: 100vw;
   padding: 100px;
   padding-bottom: 0;
+}
+
+.social-networks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.follow-text {
+  font-size: 14px;
+  color: #67635f;
+  font-weight: 400;
+}
+
+.social-networks-row {
+  display: flex;
+  border: none;
+}
+
+.social-networks-facebook {
+  background: url(resources/sprite.svg) 0 -494px no-repeat;
+  width: 33px;
+  height: 32px;
+  border: none;
+}
+
+.social-networks-twitter {
+  background: url(resources/sprite.svg) -35px -494px no-repeat;
+  width: 33px;
+  height: 32px;
+  border: none;
+}
+
+.social-networks-instagram {
+  background: url(resources/sprite.svg) -70px -494px no-repeat;
+  width: 33px;
+  height: 32px;
+}
+
+.social-networks-pinterest {
+  background: url(resources/sprite.svg) -106px -494px no-repeat;
+  width: 33px;
+  height: 32px;
+}
+
+.social-networks-youtube {
+  background: url(resources/sprite.svg) -176px -494px no-repeat;
+  width: 33px;
+  height: 32px;
+}
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  border-top: 1px solid #bbb8b6;
+  border-bottom: 1px solid #bbb8b6;
+  padding: 55px 0;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.email-title {
+  font-size: 14px;
+  color: #67635f;
+  font-weight: 400;
+}
+
+label {
+  font-size: 14px;
+  color: #67635f;
+  font-weight: 400;
+}
+
+.email-field {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+  margin-top: 20px;
+}
+
+.privacy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.check-box {
+  width: 24px;
+  height: 24px;
+  background: url(resources/sprite.svg) -313px -118px no-repeat;
+  margin-right: 10px;
+}
+
+.subscription-box {
+  width: 100%;
+  height: 40px;
+  margin: 0 auto;
+  font-size: 18px;
+  color: white;
+  background: #FF5959;
+  text-align: center;
+  margin-top: 30px;
+  border: none;
+  font-size: 14px;
+  padding: 0;
+  font-weight: 700;
+  letter-spacing: 0;
 }
