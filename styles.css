@@ -135,11 +135,103 @@ header .group .elements .right-elements .three-icon-group .number {
   margin-top: 50px;
 }
 
-.cake {
+.parties {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f8f8f8;
+  width: 100vw;
+  padding: 100px;
+  margin-top: 150px;
+  margin-bottom: 125px;
+  padding-bottom: 0;
+}
+
+.parties__cake {
   width: 102.078px;
   height: auto;
   position: absolute;
   top: -60px;
+}
+
+.parties__line {
+  width: 218px;
+  height: 2px;
+  background-color: #2e2925;
+}
+
+.parties__parties-title {
+  font-family: sans-serif;
+  font-size: 22px;
+  letter-spacing: 6px;
+  color: #2e2925;
+  font-weight: 900;
+}
+
+.parties__pictures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 325px;
+  height: 204.281px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.parties__pictures--margin-top {
+  margin-top: 50px;
+}
+
+.parties .picture-opacity {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.parties .picture-info {
+  font-size: 18px;
+  color: #67635f;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 20px;
+  opacity: 5;
+  font-weight: bold;
+}
+
+.parties .see-more {
+  width: 152px;
+  height: 50px;
+  font-size: 18px;
+  color: white;
+  background: #ff5959;
+  text-align: center;
+  margin-top: 50px;
+  border: none;
 }
 
 footer {
@@ -261,117 +353,6 @@ footer .general .row .text {
   font-size: 12px;
   margin: 0;
   padding: 0;
-}
-
-.parties {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  position: relative;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #f8f8f8;
-  width: 100vw;
-  padding: 100px;
-  margin-top: 150px;
-  margin-bottom: 125px;
-  padding-bottom: 0;
-}
-
-.line {
-  width: 218px;
-  height: 2px;
-  background-color: #2e2925;
-}
-
-.parties-title {
-  font-family: sans-serif;
-  font-size: 22px;
-  letter-spacing: 6px;
-  color: #2e2925;
-  font-weight: 900;
-}
-
-.picture1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-  width: 325px;
-  height: 204.281px;
-  margin-top: 50px;
-  margin-right: 20px;
-}
-
-.picture2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-  width: 325px;
-  height: 204.281px;
-  margin-top: 10px;
-  margin-right: 20px;
-}
-
-.picture3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-  width: 325px;
-  height: 204.281px;
-  margin-top: 10px;
-  margin-right: 20px;
-}
-
-.picture-opacity {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 200px;
-  height: 100px;
-  position: absolute;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
-.picture-info {
-  font-size: 18px;
-  color: #67635f;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 20px;
-  opacity: 5;
-  font-weight: bold;
-}
-
-.see-more {
-  width: 152px;
-  height: 50px;
-  margin: 0 auto;
-  font-size: 18px;
-  color: white;
-  background: #ff5959;
-  text-align: center;
-  margin-top: 50px;
-  border: none;
 }
 
 .bottom-footer {
